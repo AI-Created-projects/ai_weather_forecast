@@ -14,6 +14,14 @@ packages:
     description: dart
     source: sdk
     version: "0.3.3"
+  ai_clients:
+    dependency: "direct main"
+    description:
+      name: ai_clients
+      sha256: a09f94c18b29e6adec2c17ee3eabe1106ef0130e05a22a759be13909b0a16d21
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.1"
   analyzer:
     dependency: transitive
     description:
