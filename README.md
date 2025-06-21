@@ -1,34 +1,18 @@
 # weather_forecast
-Example of vader_console.
+Scripts for creating weather forecast data for LLM training.
 
+## Project Structure
 
-## Build
-Run command: `bin/build.sh`
-
-
-## Usage:
-```
--m, --message     Print message.
--h, --help        Print this usage information.
--V, --verbose     Show additional command output.
--v, --version     Print the tool version.
-```
-
-
-## Example
-```
-dart lib/main.dart -m "Hello world!!"
-```
-
+- `lib/` - Dart source code for CLI, argument parsing, weather client, and utilities.
+- `data/` - Example data files (e.g., training data, results).
 
 ## Special thanks
 
- - [Dart](https://dart.dev/): Client-optimized language for fast apps on any platform.
-
+- [Dart](https://dart.dev/): Client-optimized language for fast apps on any platform.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Author
 
