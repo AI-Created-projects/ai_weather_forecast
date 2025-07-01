@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:date_time/date_time.dart';
-import 'package:weather_forecast/utils.dart';
+import 'package:weather_forecast/app/utils.dart';
 
 class WeatherClient {
   Future<String> fetchForecast({DateRange? dateRange}) async {
